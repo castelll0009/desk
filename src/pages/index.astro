@@ -2,11 +2,14 @@
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import DayNight from '../components/CADD/DayNight.astro';
+//lading
+import Hero from '../components/landing/Hero.astro'
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="Home" description="Welcome! what  you wanna change?">
 	<main>
 		<DayNight></DayNight>
+		<Hero></Hero>
 		<h1>Test DayNight from CAD<span class="text-gradient">Astro</span></h1>
 		<p class="instructions">
 			To get started, open the directory <code>src/pages</code> in your project.<br />
